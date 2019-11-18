@@ -15,6 +15,8 @@ public final class APIConfig {
     private String keystore;
     private String keystorePassword;
 
+    private int grpcPort = 4569;
+
     private int httpPort = 4567;
     private int httpsPort = 4568;
     private int maxMessageSize = 5120 * 1000; /* Maximum size of a single WebSocket message (binary or text). */
